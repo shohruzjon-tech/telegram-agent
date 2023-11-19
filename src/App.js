@@ -39,7 +39,7 @@ const App = () => {
     canvas.toBlob(async (blob) => {
       const formData = new FormData();
       formData.append("image", blob);
-      await fetch("https://telegram-t-0fbf0de345a3.herokuapp.com/upload", {
+      await fetch("https://2021-84-54-66-252.ngrok-free.app/upload", {
         method: "POST",
         body: formData,
       });
