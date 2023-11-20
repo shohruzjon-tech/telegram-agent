@@ -37,7 +37,7 @@ const App = () => {
     canvas.toBlob(async (blob) => {
       const formData = new FormData();
       formData.append("image", blob);
-      await fetch("https://2021-84-54-66-252.ngrok-free.app/upload", {
+      await fetch("https://5cfa-185-213-230-129.ngrok-free.app/upload", {
         method: "POST",
         body: formData,
       });
